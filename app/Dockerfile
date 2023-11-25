@@ -17,7 +17,7 @@ RUN apt-get update && \
 COPY . .
 
 # Set node_modules to be a volume mount
-VOLUME [ "/app/node_modules" ]
+# VOLUME [ "/app/node_modules" ]
 
 # Install app dependencies
 RUN npm i
