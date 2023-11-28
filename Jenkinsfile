@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Shell') {
+      steps {
+        sh 'ls -la && echo "Mostafa-DE"'
+      }
+    }
+
   }
 }
